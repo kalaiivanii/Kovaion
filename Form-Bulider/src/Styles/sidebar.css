@@ -1,0 +1,42 @@
+.sidecontainer{
+    width: 16%;
+    height: 100%;
+    background-color:#f2f9ff;
+    border: 1px solid #f1f1f1;
+}
+.menu p{
+    text-align: right;
+    padding:10px 15px;
+    color: blue;
+    font-size: 20px;
+}
+
+.icons{
+    color: blue;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent ;
+    box-shadow: none;
+}
+.label{
+    outline: none;
+    border: none;
+    background-color: transparent ;
+    box-shadow: none;
+}
+
+.maincon{
+    display: flex;
+    /* padding: 5px; */
+    outline: none;
+    border: none;
+    background-color:#f2f9ff;
+}
+
+.maincon span{
+    padding: 10px;
+    font-size: 16px;
+}

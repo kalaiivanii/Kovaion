@@ -1,0 +1,70 @@
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.33% - 20px); /* 3 columns with gap */
+  min-width: 250px;
+}
+
+input,
+select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.phone-field {
+  display: flex;
+  gap: 8px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 20px 0;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.outline-btn {
+  background-color: white;
+  border: 1px solid #1a73e8;
+  color: #1a73e8;
+}
+
+.filled-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+}
+
+

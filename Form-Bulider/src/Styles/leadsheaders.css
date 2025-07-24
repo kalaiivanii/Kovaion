@@ -1,0 +1,72 @@
+.leads-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 20px;
+  flex-wrap: wrap;
+}
+
+.header-left h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.header-left p {
+  font-size: 13px;
+  color: #888;
+  margin: 4px 0 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dropdown {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 14px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 10px;
+  background-color: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.search-icon {
+  color: #888;
+}
+
+.filter-btn {
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  padding: 7px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
