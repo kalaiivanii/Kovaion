@@ -1,0 +1,56 @@
+.con_con{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.con{
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    /* height: 60px; */
+    background-color: #f9f6ff;
+}
+
+.conpara{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+   
+    /* display: flex;
+    justify-content: space-between; */
+    
+}
+
+.con_icon{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+.con_para{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 8px;
+
+}
+
+@media(max-width: 520px) and (min-width:100px)
+{
+    .conpara{
+        font-size: 11px;
+    }
+
+    .con_para{
+        font-size: 11px;
+    }
+    .con{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+
+    .cont{
+        margin-bottom: 3px;
+    }
+}

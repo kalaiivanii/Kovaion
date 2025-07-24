@@ -1,0 +1,10 @@
+.main{
+    /* display: grid; */
+    /* grid-template-columns: 0.8fr 3.2fr; */
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+

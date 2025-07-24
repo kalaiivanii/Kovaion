@@ -1,0 +1,73 @@
+.head{
+    border: 2px solid #f1f1f1;
+}
+.add_button{
+  display: flex;
+  border: 2px solid black;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.plus_icon{
+  font-size: 14px;
+  margin-right: 5px;
+}
+.leads_button{
+  border: none;
+  background: transparent;
+}
+.table_para1{
+  display: flex;
+  justify-content: space-between;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 10px;
+    
+}
+.table_container{
+  padding-top: 5px;
+}
+th{
+    margin-left: 5px;
+    padding-left: 20px;
+    margin-right: 3px;
+    background-color: #f1f1f1;
+}
+tr,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 12px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  /* white-space: nowrap; */
+}
+
+/* Individual status styles */
+.status-badge.negotiation {
+  background-color: #fff8dc;
+  color: #a67c00;
+}
+
+.status-badge.pre-sale {
+  background-color: #f0f0ff;
+  color: #6a5acd;
+}
+
+
+
+@media (max-width:520px)
+{
+  tr,td{
+    font-size: 10px;
+  }
+}

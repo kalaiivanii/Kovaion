@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    width: 16%;
+    background-color: #f1f1f1;
+    /* padding: 1%; */
+    /* padding-left: 15px; */
+}
+
+.sidebar2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 20000;
+    /* padding: 16px; */
+}
+@media(max-width:1220px)
+{
+    .sidebar2{
+        display: block !important;
+    }
+}
+.acme{
+    /* padding: 10px 10px 0px 10px; */
+    font-size: 19px;
+    padding-left: 10px;
+}
+.sidebar_cont{
+    width: 100%; 
+    background-color:white;  
+    padding: 5px;
+    box-sizing: border-box; 
+    border-radius: 10px;
+}
+
+.menu1, .menu2, .menu3, .menu4{
+    padding: 5px 0px 5px 10px ;
+    list-style-type: none;
+}
+
+.menu_item1, .menu_item2, .menu_item3, .menu_item4{
+    font-family: "Poppins", sans-serif;
+    margin: 15px 0 10px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#sales,#mark{
+    padding: 10px 0px 0px 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+ /* .menu_item2{
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+}
+ */
+
+ .line1{
+    border: 1px solid #f1f1f1;
+    /* margin: 0px 0px 5px 0px;
+    padding-left: 5px;
+    padding-right: 5px; */
+ }
+
+ .line3{
+    border-top: 1px solid #f1f1f1;
+    margin: 20px 0px 0px 0px;
+ }
+.profile_box{
+    margin: 0px 0px 0px 8px;
+    /* border: 2px solid hsl(250deg 37.5% 96.86%); */
+    /* width: 150px; */
+    /* height: 40px; */
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+ 
+
+.profile_box{
+    display: flex;
+    padding:  8px ;
+}
+
+.mod1{
+    font-size: 20px;
+}
+
+.mod2{
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        display: none;
+    }
+     .container{
+        width: 35%;
+     }
+    
+    
+}
+@media(max-width: 925px) and (min-width: 778px)
+ {
+    .acme{
+        font-size: 16px;
+        padding-left: 6px;
+    }
+
+    .menu_item1,.menu_item2,.menu_item3,.menu_item4{
+        font-size: 12px;
+    }
+ }
+
